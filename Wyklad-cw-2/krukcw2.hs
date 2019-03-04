@@ -11,6 +11,7 @@ function r
  
 -- zadanie H
 suma (n) = if n == 0 then 0 else suma (n-1)+n
+
 -- zadanie I (sumowanie akumulatorowe)
 sumowanie n = sumHELP n 0
 sumHELP n s = if n==0 then s
