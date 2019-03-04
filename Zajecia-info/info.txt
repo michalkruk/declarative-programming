@@ -1,0 +1,19 @@
+Programowanie funkcyjne (haskel) - po\u0142owa
+Druga cz\u0119\u015bc - Prolog
+Na zaj\u0119ciach wystarczaj\u0105 podstawy logiki
+
+Kolokwium - Haskel 29.04
+Ko\u0142o - Prolog 03.06
+
+Warunki zalicze\u0144:
+3 nieobecno\u015bci - wi\u0119cej ni\u017csza ocena
+50% z ka\u017cdego z kolokwium (margines b\u0142\u0119du 10%) "Z pierwszego 40%, to z drugiego 60%"
+Zadania na oke\u015blony termin - dodatkowe punkty.
+Zadanka na OLAT - materia\u0142y  z wyk\u0142adu te\u017c.
+
+Ocena 5 wystarczy: 24 z kolokwiów i zadanka minimum 80%.
+
+Odpalamy haskela przez - WinGHCI
+
+Pierwsze kroki w Haskelu
+podstawowe funkcje,
