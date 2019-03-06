@@ -1,3 +1,4 @@
+-- zadania do zrobienia G L 
 -- zadanie A
 pow a n = powHELP a n 1
 powHELP a n s = if n==0 then s
@@ -34,8 +35,17 @@ maksymalna a b c
  | otherwise = a
  
 -- zadanie M 
-pierwiastki :: a -> [[a]] -> [a]
 pierwiastki a b c 
- | (b^2-(4*a*c)) > 0 =  [ (((-b)-sqrt((b^2)-(4*a*c)))/(2*a)), (((-b)+sqrt((b^2)-(4*a*c)))/(2*a)) ]
- | (b^2-(4*a*c)) == 0 = (-b/(2*a))
- | otherwise = 0
+ | (b^2-(4*a*c)) > 0 =   [(((-b)-sqrt((b^2)-(4*a*c)))/(2*a)),(((-b)+sqrt((b^2)-(4*a*c)))/(2*a))]
+ | (b^2-(4*a*c)) == 0 = [(-b/(2*a)),0]
+ | otherwise = [0,0]
+
+ --zadanie G (polozenie punktow od poczatku ukladu)
+odleglosc a b c d = if (sqrt( (0 - a)^2 + (0 - b)^2 ) >= sqrt( (0 - c)^2 + (0 - d)^2 ) ) then [a,b] else [c,d]
+
+ --zadanie L
+ciagAkl n = ciagAklHELP n 0
+ciagAklHELP n s 
+ | n == 1 = s
+ | n == 2 = s
+ | otherwise = ciagAklHELP (n-1) (s-1)
